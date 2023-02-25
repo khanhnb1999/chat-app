@@ -1,0 +1,32 @@
+
+.content__chat {
+       min-height: 94vh;
+       background-color: #eef7ff;
+}
+
+.avatar__gif {
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding: 123.3px 0;
+       text-align: center;
+
+       img {
+              width: 340px;
+              border-radius: 5px;
+       }
+
+       span {
+              font-family: cursive;
+              padding-top: 15px;
+              font-size: 44px;
+              color: #02a5e1;
+       }
+
+       p {
+              font-size: 20px;
+              color: #00511c;
+              font-family: cursive;
+       }
+}

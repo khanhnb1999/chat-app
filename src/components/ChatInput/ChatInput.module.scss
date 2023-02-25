@@ -1,0 +1,106 @@
+.form__message {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   background-color: #eef7ff;
+   padding: 0 15px;
+}
+
+.replying {
+   min-width: 94%;
+   background-color: white;
+   border-radius: 20px;
+   padding: 5px;
+
+   .visibility__message {
+      position: relative;
+      background-color: rgb(232 232 232);
+      border-radius: 17px 17px 4px 4px;
+   }
+
+   & .header__reply {
+      padding: 5px 10px;
+
+      span {
+         font-weight: 700;
+      }
+
+      svg {
+         font-size: 20px;
+      }
+
+      p {
+         margin: 0;
+         font-size: 13px;
+      }
+   }
+
+   & .message__hidden {
+      position: absolute;
+      right: 7px;
+      top: 0px;
+
+      button {
+         background-color: #cecaca;
+         height: 19px;
+         width: 19px;
+      }
+
+      svg {
+         font-size: 13px;
+         border-radius: 50%;
+      }
+   }
+}
+
+.input__group {
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+   align-items: center;
+   padding: 3px 10px 3px 5px;
+   min-width: 94%;
+}
+
+.text__ip {
+   flex-basis: 95%;
+}
+
+.input__values {
+   border: none;
+   outline: none;
+   width: 100%;
+
+   &:focus {
+      border: none;
+      outline: none;
+   }
+}
+
+
+.icon__ip {
+   color: #4069ce;
+   cursor: pointer;
+   position: relative;
+
+}
+
+.icon__emoji {
+   position: absolute;
+   bottom: 38px;
+   right: -6px;
+}
+
+.epr-preview {
+   display: none
+}
+
+.send__msg {
+   button {
+      border: none;
+      outline: none;
+      background: transparent;
+      color: #4069ce;
+      padding-bottom: 7px;
+   }
+}

@@ -1,0 +1,81 @@
+
+.wrapper__box {
+       width: 100%;
+       min-height: 100vh;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       padding: 15px;
+       background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
+       position: relative;
+       z-index: 1;
+}
+
+.wrapper__signup {
+       width: 420px;
+       background: #fff;
+       padding: 30px 5px 0 5px;
+       border-radius: 3px;
+       overflow: hidden;
+       text-align: center;
+}
+
+.title__signup h3 {
+       font-weight: 700;
+       font-size: 28px;
+       padding-bottom: 15px;
+}
+
+.input__values,
+.input__password {
+       width: 80%;
+}
+
+.form__input {
+       display: block;
+       margin-bottom: 20px;
+
+       p {
+              padding: 5px 0 0 45px;
+              text-align: left;
+              font-size: 15px;
+       }
+}
+
+.btn__success {
+       width: 156px;
+       padding: 13px;
+       border-radius: 25px;
+}
+
+.login__with
+       {
+       span {
+              font-size: 14px;
+              color: #999;
+       }
+}
+
+.wp__box {
+       margin: 15px 0 15px 0;
+       text-align: center;
+
+       button {
+              width: 152px;
+       }
+
+       & .title__signin {
+              margin-top: 30px;
+
+              span a {
+                     color: #999;
+                     font-size: 14px;
+                     text-decoration: none;
+
+                     &:hover {
+                            color: #433cde;
+                     }
+              }
+       }
+}
