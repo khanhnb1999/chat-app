@@ -1,36 +1,35 @@
 .wrapper__group {
-       background-color: #eef7ff;
-       min-height: 94vh;
-       border-radius: 0 5px 5px 0;
+  background-color: #eef7ff;
+  min-height: 94vh;
+  border-radius: 0 5px 5px 0;
 }
 
 .group__header {
-       height: 70px;
-       background-color: white;
-       -moz-box-shadow: 0 4px 4px rgba(82, 77, 77, 0.4);
-       -webkit-box-shadow: 0 4px 4px rgba(180, 171, 171, 0.4);
-       box-shadow: 0 4px 4px rgba(122, 113, 113, 0.4);
-       padding-top: 8px;
-       border-radius: 0 5px 0 0 ;
+  height: 70px;
+  background-color: white;
+  -moz-box-shadow: 0 4px 4px rgba(82, 77, 77, 0.4);
+  -webkit-box-shadow: 0 4px 4px rgba(180, 171, 171, 0.4);
+  box-shadow: 0 4px 4px rgba(122, 113, 113, 0.4);
+  padding-top: 8px;
+  border-radius: 0 5px 0 0;
 }
 
 .groups {
-       padding: 30px;
-       text-align: center;
-       cursor: pointer;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
 
-       span {
-              font-size: 14px;
-              color: rgb(134, 134, 134);
-              cursor: pointer;
-              
-              img {
-                     cursor: pointer;
-              }
-       }
+  span {
+    font-size: 14px;
+    color: rgb(134, 134, 134);
+    cursor: pointer;
 
+    img {
+      cursor: pointer;
+    }
+  }
 }
 
 .rooms {
-       margin-bottom: 30px;
+  margin-bottom: 30px;
 }

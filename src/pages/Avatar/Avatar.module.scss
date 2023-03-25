@@ -1,78 +1,77 @@
 .avatar {
-       width: 100%;
-       min-height: 100vh;
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-       align-items: center;
-       padding: 15px;
-       background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
-       position: relative;
-       z-index: 1;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
+  position: relative;
+  z-index: 1;
 }
 
 .wrapper__avatar {
-       position: relative;
-       background-color: white;
-       width: 320px;
-       height: 430px;
-       border-radius: 3px;
-       padding: 20px;
-       text-align: center;
+  position: relative;
+  background-color: white;
+  width: 320px;
+  height: 430px;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
 }
 
-
 .title__avatar {
-       position: absolute;
-       background-color: #1976d2;
-       color: white;
-       border-radius: 3px 3px 0 0;
-       width: 100%;
-       left: 0;
-       top: 0px;
-       text-align: center;
-       padding: 10px;
+  position: absolute;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 3px 3px 0 0;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  text-align: center;
+  padding: 10px;
 
-       p {
-              padding: 0;
-              margin: 0;
-       }
+  p {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .avatar__circle {
-       margin-top: 40px;
-       img {
-              width: 225px;
-              height: 225px;
-              border-radius: 50%;
-       }
+  margin-top: 40px;
+  img {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+  }
 }
 
 .icon__button {
-       border: 1px solid #1976d2;
-       max-width:180px;
-       margin: 10px auto;
-       height: 41px;
-       border-radius: 3px;
+  border: 1px solid #1976d2;
+  max-width: 180px;
+  margin: 10px auto;
+  height: 41px;
+  border-radius: 3px;
 
-       span {
-              font-size: 16px;
-       }
+  span {
+    font-size: 16px;
+  }
 }
 
 .current__about {
-       position: absolute;
-       width: 0;
-       height: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
 }
 
 .btn__group {
-       text-align: center;
-       position: absolute;
-       width: 100%;
-       bottom: 10px;
-       left: 0;
-       right: 0;
-       border-top: 1px solid #eeeeee;
-       padding-top: 20px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #eeeeee;
+  padding-top: 20px;
 }

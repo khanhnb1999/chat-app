@@ -1,22 +1,22 @@
 body {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper__layout {
-       width: 100%;
-       min-height: 100vh;
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-       align-items: center;
-       background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
-       position: relative;
-       z-index: 1;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
+  position: relative;
+  z-index: 1;
 }
 
 .grid__container {
-       width: 90%;
-       margin-top:20px;
+  width: 90%;
+  margin-top: 20px;
 }
